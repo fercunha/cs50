@@ -1,35 +1,32 @@
+#scssParagraph p {
+  font-family: sans-serif;
+  font-size: 18px; }
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
-  width: 100%;
-}
+  width: 100%; }
 
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 8px;
-}
-
-.pass {
-    content: "&#x2705";
-}
+  padding: 8px; }
 
 @media (min-width: 750px) {
-    #headPages {
-        color: #0F9D58
-    }
-    
-    #headPages::after {
-        content: " - Hi, there! This is a bigger screen!"
-    }
-}
+  #headPages {
+    color: #0F9D58; }
 
+  #headPages::after {
+    content: " - Hi, there! This is a bigger screen!"; } }
 @media (max-width: 749px) {
-    #headPages {
-        color: #4885ed
-    }
+  #headPages {
+    color: #4885ed; }
 
-    #headPages::after {
-        content: " - Hi, there!"
-    }
-}
+  #headPages::after {
+    content: " - Hi, there!"; } }
+#scssParagraph {
+  font-size: 18px; }
+  #scssParagraph p {
+    background-color: #7cecec; }
+
+/*# sourceMappingURL=mystyle.css.map */
